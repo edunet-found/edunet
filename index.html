@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edunet Certificate</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #e8e8e8;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .certificate-container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            max-width: 500px;
+            width: 100%;
+            overflow: hidden;
+            border: 1px solid #ddd;
+        }
+
+        .header {
+            padding: 25px;
+            background-color: #fafafa;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .logo {
+            height: 35px;
+            width: auto;
+        }
+
+        .verified-badge {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 0;
+            text-align: center;
+            font-weight: 500;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+
+        .certificate-details {
+            padding: 0;
+            background-color: white;
+        }
+
+        .detail-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .detail-row {
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+
+        .detail-label {
+            color: #666;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 16px 20px;
+            width: 140px;
+            border-right: 1px solid #e5e5e5;
+            background-color: #fafafa;
+            vertical-align: top;
+        }
+
+        .detail-value {
+            color: #333;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 16px 20px;
+            background-color: white;
+            vertical-align: top;
+            line-height: 1.4;
+        }
+
+        .project-name {
+            word-break: break-word;
+        }
+
+        @media (max-width: 480px) {
+            .certificate-container {
+                max-width: 100%;
+                margin: 10px;
+            }
+            
+            .detail-label {
+                width: 120px;
+                padding: 14px 16px;
+                font-size: 13px;
+            }
+            
+            .detail-value {
+                padding: 14px 16px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate-container">
+        <div class="header">
+            <img src="edunet.jpg" alt="edunet" class="logo">
+        </div>
+        
+        <div class="verified-badge">
+            Certificate Verified
+        </div>
+        
+        <div class="certificate-details">
+            <table class="detail-table">
+                <tr class="detail-row">
+                    <td class="detail-label">Name</td>
+                    <td class="detail-value">KAZI ASID ALAM</td>
+                </tr>
+                
+                <tr class="detail-row">
+                    <td class="detail-label">AICTE ID</td>
+                    <td class="detail-value">STU6582f500d374e1703081216</td>
+                </tr>
+                
+                <tr class="detail-row">
+                    <td class="detail-label">College Name</td>
+                    <td class="detail-value">HALDIA INSTITUTE OF TECHNOLOGY</td>
+                </tr>
+                
+                <tr class="detail-row">
+                    <td class="detail-label">Courses completed</td>
+                    <td class="detail-value">AI: Transformative Learning with TechSaksham</td>
+                </tr>
+                
+                <tr class="detail-row">
+                    <td class="detail-label">Project Name</td>
+                    <td class="detail-value project-name">Attendance Management System using Face Recognition</td>
+                </tr>
+                
+                <tr class="detail-row">
+                    <td class="detail-label">Start Date</td>
+                    <td class="detail-value">12 December 2024</td>
+                </tr>
+                
+                <tr class="detail-row">
+                    <td class="detail-label">End Date</td>
+                    <td class="detail-value">09 January 2025</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
